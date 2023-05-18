@@ -350,8 +350,8 @@ footer{
     z-index: -1;
 }
 
-.video {
-    text-align: center;
+.video iframe{
+    width: 100%;
 }
 .blog .box-container{
     display: grid;
