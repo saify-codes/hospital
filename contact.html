@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- SECTION: HEADER -->
+    <header class="header">
+        <a href="#" class="logo"><img height="30" src="assets/logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">contact</a>
+            <a href="doctor.html">Doctors</a>
+            <a href="review.html">Reviews</a>
+            <a href="about.html">About</a>
+        </nav>
+        <div id="menu__btn" class="fas fa-bars"></div>
+    </header>
+    <!-- SECTION: HEADER -->
+
+    <!-- SECTION: BOOKING -->
+    <section class="booking">
+        <div class="wrapper">
+            <div class="image">
+                <img src="assets/appointment.gif" alt="booking">
+            </div>
+            <form>
+                <h3>book appointment</h3>
+                <input class="form-control" type="text" placeholder="name" required>
+                <input class="form-control" type="email" pattern="^\w+@\w+\.[a-zA-Z]{2,5}$" placeholder="email" required>
+                <input class="form-control" type="tel" pattern="\d+" placeholder="phone" required>
+                <input class="form-control" type="date" placeholder="phone" required>
+                <button type="submit" class="btn">book now</button>
+            </form>
+        </div>
+    </section>
+    <!-- SECTION: BOOKING -->
+
+    <!-- FOOTER -->
+    <footer>
+        &copy;All rights reserved alkhidmat.com
+    </footer>
+    <!-- FOOTER -->
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
